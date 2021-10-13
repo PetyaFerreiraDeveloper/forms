@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="profile-header">
+        <h1>Personal Profile</h1>
+        <p><em>Update your profile so others can get to know you better</em></p>
+    </header>
+    <form class="profile-form">
+        <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="wally@gmail.com"> 
+        </div>
+        <fieldset class="radio-form-row">
+            <legend>Allow push motification?</legend>
+            <input type="radio" name="push-type" id="push-type-1" value="no">
+            <label for="push-type-1" class="radio-label">No</label>
+            <input type="radio" name="push-type" id="push-type-2" value="yes" checked>
+            <label for="push-type-2" class="radio-label">Yes</label>
+        </fieldset>
+
+        <!-- Adding our dropdown menu-->
+        <div class="form-row">
+            <label for="color">Pick a profile color</label>
+            <select name="color" id="color">
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="red">Red</option>
+                <option value="yellow">Yellow</option> 
+            </select>
+        </div>
+    </form>
+</body>
+</html>
