@@ -42,6 +42,15 @@ body {
     padding: var(--main-padding);
 }
 
+/* ******** FORM STYLING ******** */
+.profile-form {
+    background-color: rgb(241, 238, 238);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    padding: var(--main-padding);
+}
+
 /* ******** INPUT TEXT STYLING ******** */
 
 .form-row {
@@ -103,3 +112,48 @@ body {
     width: var(--widget-width);
 }
 
+/* ******** TEXTAREA STYLING ******** */
+
+.form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    border: 1px solid #d6d9dc;
+    border-radius: var(--border-radius);
+    min-height: 100px;
+    width: var(--widget-width);
+    margin-bottom: var(--margin-bottom);
+    padding: 10px;
+
+}
+
+.form-row .description {
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: var(--margin-bottom);
+    margin-left: var(--label-width);
+}
+
+/* ******** TEXTAREA STYLING ******** */
+
+.form-row .checkbox-label {
+    margin-left: var(--label-width);
+    width: auto;
+}
+
+/* ******** BUTTON STYLING ******** */
+
+.form-row button {
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(231, 2, 2);
+    padding: 10px 40px;
+    border: none;
+    border-radius: var(--border-radius);
+    margin-left: var(--label-width);
+    cursor: pointer;
+}
+
+.form-row button:hover {
+    background-color: rgb(255, 30, 30);
+}
